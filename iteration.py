@@ -4,12 +4,12 @@ my_name = "jacob miller" # string example
 # dict example. {[key]: [value]}
 movie_directors = { 
     "interstellar": "christopher nolan", 
-    "rear window": "alferd hitchcock",
+    "rear window": "alfred hitchcock",
     "mad max: fury road": "george miller",
     "back to the future": "robert zemeckis"
 }
 
-lol = [["a",1],["b",2],["c",3],["d",4]] # list of lists
+lol = [["drtghsh645",1],["b",2],["c",3],["d",4]] # list of lists
 
 def loop_through_list():
     for thingy in some_numbers:
@@ -27,9 +27,9 @@ def use_dict():
 
 def lol_1():
     for pair in lol:
-    # do not use "list" as a variable name, since it is a python keyword.
-    # keywords can be found here:
-    # https://www.programiz.com/python-programming/keyword-list
+        # do not use "list" as a variable name, since it is a python keyword.
+        # keywords can be found here:
+        # https://www.programiz.com/python-programming/keyword-list
         print(pair)
     
 def lol_2():
@@ -49,10 +49,10 @@ def while_loop():
         a -= 12 # equivalent to: a = a-12
     print(f"a is now {a}") # this is an f-string. variables can be placed inside {}
 
-# loop_through_list()
-# loop_through_string()
-# use_dict()
-# lol_3()
-# lol_1()
-# lol_2()
-# while_loop()
+#loop_through_list()
+#loop_through_string()
+#use_dict()
+#lol_1()
+#lol_2()
+#lol_3()
+while_loop()
